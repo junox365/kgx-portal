@@ -1,7 +1,7 @@
 resource "google_project" "default" {
   provider = google-beta
 
-  project_id = "kgx-portal"
+  project_id = "kgx-portal-309010"
   name       = "kgx-portal"
 }
 
