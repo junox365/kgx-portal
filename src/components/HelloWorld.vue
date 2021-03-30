@@ -2,6 +2,7 @@
   <h1>{{ msg }}</h1>
 </template>
 
+
 <script lang="ts">
 import { ref, defineComponent } from 'vue'
 export default defineComponent({
