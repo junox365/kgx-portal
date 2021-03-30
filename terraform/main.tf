@@ -6,14 +6,8 @@ terraform {
     }
   }
 }
+resource "google_cloudbuild_trigger" "build-trigger" {
 
-# CloudBuild
-resource "google_cloudbuild_trigger" "filename-trigger" {
-  trigger_template {
-    branch_name = "master"
-    repo_name   = "github.com/junox365/kgx-portal"
-  }
-  filename = "cloudbuild.yaml"
 }
 
 # Firebase
