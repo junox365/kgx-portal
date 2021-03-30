@@ -1,4 +1,6 @@
 steps:
+- name: 'ubuntu'
+  args: ['ls', '-l']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
