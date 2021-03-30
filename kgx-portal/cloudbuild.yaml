@@ -1,6 +1,6 @@
 steps:
 - name: 'ubuntu'
-  args: ['cd', 'kgx-portal']
+  args: ['cd', 'kgx-portal/']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
