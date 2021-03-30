@@ -6,6 +6,7 @@ terraform {
     }
   }
 }
+
 resource "google_cloudbuild_trigger" "build-trigger" {
 
 }
