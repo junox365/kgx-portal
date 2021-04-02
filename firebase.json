@@ -1,5 +1,6 @@
 { 
     "hosting": {
+      "target": "kgx-porta-hosting-dev",
       "public": "dist",
       "ignore": [
         "firebase.json",
